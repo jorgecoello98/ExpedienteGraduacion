@@ -57,7 +57,7 @@
                             toastr["warning"]("UPS! Ha habido un error, intentelo de nuevo");
                         }
                         if(resp == "Exito"){
-                            window.location="/expedientesGraduacion/correo-enviado.php";
+                            window.location="../../correo-enviado.php";
                         }
                         document.getElementById('res-btn').disabled=false;
                         

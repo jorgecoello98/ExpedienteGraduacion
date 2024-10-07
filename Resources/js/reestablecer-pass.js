@@ -122,5 +122,5 @@ $("#reset-password").submit(function (e){
 });
 
 function redireccionar(){
-    window.location="/expedientesGraduacion/index.php";
+    window.location="../index.php";
 }

@@ -72,7 +72,7 @@ async function obtenerDatosEstudiante(){
     let estudiante = JSON.parse(resultado);
 
     if(estudiante.estado_info !== "1"){
-        location.href ="estado-informacion.php";
+        location.href ="../../controller/estudiante/estado-informacion.php";
     } else {
         //ALMACENAMOS ESTOS VALORES EN INPUTS HIDDEN PARA ACCEDER A ELLOS MAS TARDE
         $("#id-estudiante").val(estudiante.id);

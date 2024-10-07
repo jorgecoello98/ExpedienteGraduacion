@@ -279,23 +279,23 @@
                                         
                                         <div class="form-group">
                                             <label for="nombres">Nombres:</label>
-                                            <input type="text" id="nombres" placeholder="Nombres" class="form-control" disabled>
+                                            <input type="text" id="nombres" placeholder="Nombres" class="form-control" >
                                         </div>
                                         <div class="form-group">
                                             <label for="apellidos">Apellidos:</label>
-                                            <input type="text" id="apellidos" placeholder="Apellidos" class="form-control" disabled>
+                                            <input type="text" id="apellidos" placeholder="Apellidos" class="form-control" >
                                         </div>
                                         <div class="form-group">
                                             <label for="identidad">Numero Identidad:</label>
-                                            <input type="text" id="identidad" placeholder="Numero Identidad" class="form-control" disabled>
+                                            <input type="text" id="identidad" placeholder="Numero Identidad" class="form-control" >
                                         </div>
                                         <div class="form-group">
                                             <label for="correo">Correo Institucional:</label>
-                                            <input type="email" id="correo" placeholder="Correo Institucional" class="form-control" disabled>
+                                            <input type="email" id="correo" placeholder="Correo Institucional" class="form-control" >
                                         </div>
                                         <div class="form-group">
                                             <label for="numero-cuenta">Numero de Cuenta:</label>
-                                            <input type="text" id="numero-cuenta" placeholder="Numero de Cuenta" class="form-control" disabled>
+                                            <input type="text" id="numero-cuenta" placeholder="Numero de Cuenta" class="form-control" >
                                         </div>
                                         
                                         
@@ -305,7 +305,7 @@
                                         
                                         <div class="form-group">
                                             <label for="exampleSelect1">Carrera: </label>
-                                            <select class="form-control" id="carrera" disabled>
+                                            <select class="form-control" id="carrera" >
                                                 
                                             </select>
                                         </div>
@@ -313,19 +313,19 @@
                                         <label for="">¿Pertenece usted a excelencia académica?</label>
                                         <div class="form-group">
                                             <div class="custom-control custom-switch" >
-                                                <input type="checkbox" class="custom-control-input" id="estado-excelencia" checked="" disabled>
+                                                <input type="checkbox" class="custom-control-input" id="estado-excelencia" checked="" >
                                                 <label class="custom-control-label" for="estado-excelencia" id="estado"></label>
                                             </div>
                                         </div>
                                         <br><br><br>
                                         <div class="form-group">
                                             <label for="comentario">Comentario Coordinador:</label>
-                                            <textarea class="form-control" id="comentario" rows="3" disabled></textarea>
+                                            <textarea class="form-control" id="comentario" rows="3" ></textarea>
                                         </div>
                                         
                                         <div class="form-row justify-content-end">
                                             <div class="col">
-                                                <button type="submit" style='border-radius: 5px;' class="text-center btn btn-success btn-block sombra-corta" id="subm" disabled>Modificar</button>
+                                                <button type="submit" style='border-radius: 5px;' class="text-center btn btn-success btn-block sombra-corta" id="subm" >Modificar</button>
                                             </div>
                                         </div>
                                     </div>
